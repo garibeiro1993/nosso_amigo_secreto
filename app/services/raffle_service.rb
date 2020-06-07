@@ -34,3 +34,4 @@ class RaffleService
       results
     end
   end
+  
