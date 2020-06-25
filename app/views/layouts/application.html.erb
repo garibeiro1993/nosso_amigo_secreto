@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>NossoAmigoSecreto</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag %>
-  </head>
+</head>
 
-  <body>
+<body>
 
     <header>
-      <%= render "shared/navbar" %>
+        <%= render "shared/navbar" %>
     </header>
 
     <main>
-      <div class="container">
-        <%= yield %>
-      </div>
+        <div class="container">
+            <%= yield %>
+        </div>
     </main>
 
     <footer>
-      <%= render "shared/footer" %>
+        <%= render "shared/footer" %>
     </footer>
 
-  </body>
+</body>
+
 </html>
